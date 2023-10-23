@@ -32,7 +32,7 @@ namespace DormAndMealPlan
         {
             textBoxForm2.Text += Form1.dormList[Dorm.UserChoiceDormIndex].ToString(); // Append user selection on form 1
             textBoxForm2.Text += Form1.mealsList[PlanMeal.UserChoiseMeanIndex].ToString();
-            textBoxForm2.Text += "Total Cost: " + TotalCal().ToString("C");
+            textBoxForm2.Text +=  "Total Cost: " + TotalCal().ToString("C");
         }
 
         // Method to calculate the total of the user choice

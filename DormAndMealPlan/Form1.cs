@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Application with 2 forms.
+// The main form should allow the user to select a dormitory and a meal plan.
+// The application should show the total charges on the second form.
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
